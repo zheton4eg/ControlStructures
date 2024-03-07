@@ -34,8 +34,7 @@ void main()
 		for (int j = 1; j <=n+n; j++)
 		{
 			cout << "* ";
-			if (i > n, j<n)
-				cout << "  ";
+			
 
 			
 		}cout << endl;
