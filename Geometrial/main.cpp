@@ -7,7 +7,7 @@ using namespace std;
 //#define TRIANGLE_4
 //#define ROMB
 //#define PLUSMINUS
-//#define ROMBUS
+#define ROMBUS
 void main()
 {
 	setlocale(LC_ALL, "");
@@ -128,31 +128,8 @@ void main()
 
 #endif // ROMBUS
 	  
-	for (int i = 1; i <= n; i++)
-	{
-		for (int j = i; j < n; j++)
-		
-			if (n > 1)cout << "     ";
-			if (n > 9)cout << "   ";
-			if (n > 99)cout << "  ";
-			if (n > 999)cout << " ";
-		
-			
 
-		
-			 
 	
-		for (int j = 1; j <= i; j++)cout << (j * i)<<"  ";
-		
-			
-
-			for (int j = i - 1; j >= 2; j--)cout << (j * i) << "  ";
-			{
-				for (int j = 1; j >= 1; j--)cout << i;
-			}
-			cout << endl;
-		
-	}
 }
 
 
